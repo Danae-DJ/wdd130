@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif+Caption:ital@0;1&display=swap')
+
+body {
+    font-family : var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+
+:root{
+    --primary-color: #393e41;
+    --secondary-color: #156671;
+    --thirdy-color: #e0e0e0;
+    --fourhty-color: #ffff;
+    --accent1-color: #d5ae20; 
+    --accent2-color: #0b0b09;
+
+    --heading-font: "PT Serif Caption", serif;
+    --paragraph-font: "PT Serif Caption", serif;
+
+    --nav-background-color: #e0e0e0;
+    --nav-link-color:#156671;
+    --nav-hover-link-color: #0b0b09;
+    --nav-hover-background-color: #d5ae20;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+body, h1, h2, h3, p, ul, ol, li {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family : var(--paragraph-fount);
+    background-color: #f0f0f0;
+    color: var(--accent2-color);
+    max-width: 960px;
+    padding: 20px;
+    margin: 0 auto
+}
+
+h1, h2 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+header {
+    background-color: var(--accent1-color);
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header img {
+    max-width: 30%;
+    position: relative;
+
+}
+
+
+header nav {
+    margin-top: 10px;
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+
+header nav a {
+    color: var(--primary-color);
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+nav a {
+    display: block;
+    color: var(--nav-hover-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
+
+main {
+    padding: 20px;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero h1 {
+    position: absolute; /* Positioning the h1 absolutely */
+    top: 50%; /* Placing it vertically centered */
+    left: 50%; /* Placing it horizontally centered */
+    transform: translate(-50%, -50%); /* Centering trick */
+    color: #fff;
+    font-size: 2.5em;
+}
+
+.hero article {
+    position: absolute; /* Positioning the article absolutely */
+    top: 50%; /* Placing it vertically centered */
+    left: 50%; /* Placing it horizontally centered */
+    transform: translate(-50%, -50%); /* Centering trick */
+    background-color: rgba(0, 0, 0, 0.7); /* Background color with opacity */
+    padding: 20px;
+    max-width: 80%; /* Limiting the width of the article */
+    color: #fff;
+}
+
+section {
+    margin-top: 40px;
+}
+
+section h2 {
+    margin-bottom: 10px;
+}
+
+section p {
+    line-height: 1.6;
+}
+
+section img {
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: var(--primary-color);
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+footer p {
+    margin-bottom: 10px;
+    padding: 25px;
+}
+
+.sociallinks a {
+    display: inline-block;
+    margin: 0 5px;
+    text-decoration: none; /* Removing underlines from social media links */
+}
+
+.sociallinks img {
+    width: 30px;
+    height: 30px;
+}
+
+
+
