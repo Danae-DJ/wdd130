@@ -358,7 +358,6 @@ Desafortunadamente, el 20% izquierdo de tus zanahorias han sido invadidas por ma
 grid-template: 1fr 50px / 20% 80%
 }
 
-
         */
     </style>
   </head>
@@ -379,3 +378,30 @@ grid-template: 1fr 50px / 20% 80%
 </body>
 
 </html>
+
+
+
+/*
+Propiedades que deberíamos aprender para ayudar a entender la alineación con CSS Grid.
+
+justify-content
+Alinea el contenedor de la cuadrícula a lo largo del eje en línea (por defecto, horizontal). 
+Esto sólo funciona cuando la cuadrícula es más estrecha que el espacio disponible.
+justify-items
+Alinea el contenido del elemento de la cuadrícula a lo largo del eje en línea (por defecto, horizontal). 
+Esto sólo funciona cuando el contenido de una celda de la cuadrícula es más estrecho que la celda de la cuadrícula.
+align-content
+Alinea el contenedor de la cuadrícula a lo largo del eje del bloque (por defecto, vertical). 
+Esto sólo funciona cuando la cuadrícula es más corta que el espacio disponible.
+align-items
+Alinea el contenido del elemento de la cuadrícula a lo largo del eje del bloque (por defecto, vertical). 
+Esto solo funciona cuando el contenido de una celda de la cuadrícula es más corto que la celda de la cuadrícula.
+Resumen : justifyalinea horizontalmente de forma predeterminada, 
+alignse encarga de la otra dirección (alineación vertical de forma predeterminada). 
+Si queremos alinear el contenedor de la cuadrícula, usamos el contentsufijo. 
+Si queremos alinear el contenido de los elementos de la cuadrícula dentro de las celdas de la cuadrícula, 
+usamos items.
+
+
+
+*/
