@@ -95,11 +95,13 @@ main {
 
 .hero h1 {
     position: absolute; /* Positioning the h1 absolutely */
-    top: 50%; /* Placing it vertically centered */
+    top: 80%; /* Placing it vertically centered */
     left: 50%; /* Placing it horizontally centered */
     transform: translate(-50%, -50%); /* Centering trick */
     color: #fff;
     font-size: 2.5em;
+    background-color: var(--primary-color);
+    transform: translate(-50%, -50%);
 }
 
 .hero article {
@@ -111,6 +113,10 @@ main {
     padding: 20px;
     max-width: 80%; /* Limiting the width of the article */
     color: #fff;
+}
+
+.hero div {
+    position: absolute;
 }
 
 section {
