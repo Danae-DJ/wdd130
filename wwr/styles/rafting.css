@@ -96,25 +96,35 @@ main {
     width: 100%;
     height: auto;
 }
+
+.hero article img {
+    display: block;
+    width: 30%;
+    float: right;
+    height: auto;
+    
+}
+
 .hero h1 {
     position: absolute; /* Positioning the h1 absolutely */
-    top: 80%; /* Placing it vertically centered */
-    left: 50%; /* Placing it horizontally centered */
+    top:center; /*80%; /* Placing it vertically centered */
+    left: center; /*50%; /* Placing it horizontally centered */
     transform: translate(-50%, -50%); /* Centering trick */
     color: #fff;
     font-size: 2.5em;
     background-color: var(--primary-color);
     transform: translate(-50%, -50%);
+    padding: 0;
 }
 
 .hero article {
-    position: relative; /* Positioning the article absolutely */
+    position: absolute; /* Positioning the article absolutely */
     top: 50%; /* Placing it vertically centered */
     left: 50%; /* Placing it horizontally centered */
     transform: translate(-50%, -50%); /* Centering trick */
     background-color: rgba(0, 0, 0, 0.7); /* Background color with opacity */
     padding: 20px;
-    max-width: 80%; /* Limiting the width of the article */
+    max-width: 100%; /* Limiting the width of the article */
     color: #fff;
 }
 
