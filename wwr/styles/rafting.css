@@ -125,7 +125,7 @@ main {
     transform: translate(-50%, -50%); /* Centering trick */
     background-color: rgba(0, 0, 0, 0.7); /* Background color with opacity */
     padding: 20px;
-    width: auto 0; /* Limiting the width of the article */
+    width: auto ; /* Limiting the width of the article */
     color: #fff;
     display: grid;
     grid-template-columns: 20% 20% 20% 20%;
