@@ -87,12 +87,15 @@ main {
     padding: 20px;
 }
 
+.hero div {
+    position: absolute;
+}
+
 .hero img {
     display: block;
     width: 100%;
     height: auto;
 }
-
 .hero h1 {
     position: absolute; /* Positioning the h1 absolutely */
     top: 80%; /* Placing it vertically centered */
@@ -105,7 +108,7 @@ main {
 }
 
 .hero article {
-    position: absolute; /* Positioning the article absolutely */
+    position: relative; /* Positioning the article absolutely */
     top: 50%; /* Placing it vertically centered */
     left: 50%; /* Placing it horizontally centered */
     transform: translate(-50%, -50%); /* Centering trick */
@@ -115,9 +118,7 @@ main {
     color: #fff;
 }
 
-.hero div {
-    position: absolute;
-}
+
 
 section {
     margin-top: 40px;
