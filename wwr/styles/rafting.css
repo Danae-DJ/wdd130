@@ -89,6 +89,7 @@ main {
 
 .hero div {
     position: absolute;
+    
 }
 
 .hero img {
@@ -98,17 +99,16 @@ main {
 }
 
 .hero article img {
-    display: block;
-    width: 30%;
-    float: right;
-    height: auto;
+    display: grid;
+    grid-column: 4/6;
+    
     
 }
 
 .hero h1 {
-    position: absolute; /* Positioning the h1 absolutely */
-    top:center; /*80%; /* Placing it vertically centered */
-    left: center; /*50%; /* Placing it horizontally centered */
+    position: absolute;  /* Positioning the h1 absolutely */
+    top:50%; /* Placing it vertically centered */
+    left: 50%; /* Placing it horizontally centered */
     transform: translate(-50%, -50%); /* Centering trick */
     color: #fff;
     font-size: 2.5em;
@@ -117,16 +117,28 @@ main {
     padding: 0;
 }
 
+
 .hero article {
     position: absolute; /* Positioning the article absolutely */
-    top: 50%; /* Placing it vertically centered */
+    top: 80%; /* Placing it vertically centered */
     left: 50%; /* Placing it horizontally centered */
     transform: translate(-50%, -50%); /* Centering trick */
     background-color: rgba(0, 0, 0, 0.7); /* Background color with opacity */
     padding: 20px;
-    max-width: 100%; /* Limiting the width of the article */
+    width: auto 0; /* Limiting the width of the article */
     color: #fff;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    grid-template-rows: 20% 20% 20% 20%;
 }
+
+.hero article p {
+    display: grid;
+    grid-column: 1/4;
+    grid-row: 1/5;
+
+}
+
 
 
 
