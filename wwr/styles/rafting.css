@@ -298,7 +298,15 @@ footer p {
     height: 30px;
 }
 
-
+a .wireframe {
+    color: #007bff; /* Set the color of the link */
+    text-decoration: none; /* Remove the underline */
+    font-weight: bold;
+    }
+a .wireframe:hover {
+    text-decoration: underline;
+    font-size: 1.3rem;
+}
 
 /*aqui inicia el contact us*/
 main .contact {
