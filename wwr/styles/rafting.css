@@ -276,6 +276,8 @@ footer p {
     align-content: center;
 }
 
+
+
 .sociallinks {
     grid-column: 3/4;
     grid-row: 1/2;
