@@ -390,6 +390,7 @@ a[href^="mail"] {
 iframe {
     grid-column: 1/3;
     grid-row: 2/3;
+    border: 0;
 }
 
 /*.map figure, .map figcaption {
