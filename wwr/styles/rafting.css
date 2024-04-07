@@ -525,7 +525,7 @@ button {
 
 
 .cta-button {
-    background-color: var(--accent1-color); 
+    background-color: var(--secondary-color); 
     background-size: auto;
     color: white; 
     padding: 10px 20px;
@@ -537,7 +537,7 @@ button {
 }
 
 .cta-button:hover {
-    background-color: black; 
+    background-color: var(--primary-color); 
 }
 
 .cta-button:active {
