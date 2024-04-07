@@ -5,8 +5,11 @@
     --secondary-color: #156671;
     --thirdy-color: #e0e0e0;
     --fourhty-color: #ffff;
-    --accent1-color: #d5ae20; 
+    --accent-color: #d5ae20; 
     --accent2-color: #0b0b09;
+    --accent-text-color: #ffffff;
+    --background-color: #f0f0f0;
+    --text-color: #333333;
 
     --heading-font: "PT Serif Caption", serif;
     --paragraph-font: "PT Serif Caption", serif;
@@ -35,12 +38,13 @@ body, h1, h2, h3, p, ul, ol, li {
 
 body {
     font-family : var(--paragraph-fount);
-    background-color: #f0f0f0;
-    color: var(--accent2-color);
+    background-color: var(--background-color);
+    color: var(--text-color);
     max-width: 960px;
     padding: 20px;
     margin: 0 auto
 }
+
 
 h1, h2 {
     font-family: var(--heading-font);
@@ -48,8 +52,8 @@ h1, h2 {
 }
 
 header {
-    background-color: var(--accent1-color);
-    color: #fff;
+    background-color: var(--accent-color);
+    color: var(--accent-text-color);
     padding: 10px 0;
     text-align: center;
     display: grid;
@@ -57,9 +61,8 @@ header {
     grid-template-rows: 1fr;
     grid-column: 1/2;
     grid-row: 1/2;
-
-
 }
+
 
 header img {
     max-width: 40%;
@@ -91,7 +94,7 @@ header nav a {
 
 nav a {
     display: block;
-    color: var(--nav-hover-link-color);
+    color: var(--text-color);
     text-decoration: none;
     padding: 1rem;
     text-align: center;
@@ -258,7 +261,7 @@ footer {
     width: auto;
     height: 100px;
     background-color: var(--primary-color);
-    color: #fff;
+    color: var(--accent-text-color);
     padding: 10px 0;
     text-align: center;
     grid-template-columns: 1fr 1fr 1fr;
@@ -527,7 +530,7 @@ button {
 .cta-button {
     background-color: var(--secondary-color); 
     background-size: auto;
-    color: white; 
+    color: var(--accent-text-color); 
     padding: 10px 20px;
     border-radius: 5px; 
     text-decoration: none; 
@@ -535,6 +538,7 @@ button {
     align-items: center;
     transition: background-color 0.3s ease; 
 }
+    
 
 .cta-button:hover {
     background-color: var(--primary-color); 
@@ -552,6 +556,7 @@ button {
     margin-top: 20px;
 }
 
+
 .trip-table caption {
     font-size: 1.5em;
     font-weight: bold;
@@ -565,12 +570,12 @@ button {
 }
 
 .trip-table th {
-    background-color: var(--secondary-color); /*table header */
-    color: white; /* Text color for table header */
+    background-color: var(--secondary-color);
+    color: var(--accent-text-color);
 }
 
 .trip-table tr:nth-child(even) {
-    background-color: #f2f2f2; /* Alternate row background color */
+    background-color: #ffffff; /* Alternate row background color */
 }
 
 .trip-table tr:hover {
