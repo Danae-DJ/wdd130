@@ -581,3 +581,135 @@ button {
 .trip-table tr:hover {
     background-color: #ddd; /* Hover color for table rows */
 }
+
+
+
+
+
+/*Here coming index*/
+
+
+
+
+main .main-grid{
+    padding: 20px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-template-rows: auto auto auto auto;
+    grid-gap: 20px;
+}
+
+.main-grid a {
+    color: #d5ae20; /* Yellow link color */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.main-grid a:hover {
+    text-decoration: underline;
+}
+
+.experience{
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-column: 1/5;
+    grid-row: 1/2;
+}
+
+.experience img{
+    grid-row: 1/4;
+    float: left;
+    width: 500px;
+    height: auto;
+    border: 5px solid steelblue;
+    padding: 2px;
+    box-shadow: 0 0 50px gray;
+    margin-bottom: 30px;
+}
+
+.experience h1{ 
+    grid-row: 4/5;
+    background-color: var(--fourhty-color);
+    text-align: center;
+    align-content: center;
+}
+
+.newsletter {
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    grid-column: 5/6;
+    grid-row: 1/2;
+    text-align: center;
+    align-content: center;
+    padding: 0 10px ;
+    border: 5px solid rgba(0, 0, 0, 0.1);
+    border-radius:1.5rem;
+}
+
+.cta {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-column: 1/6;
+    grid-row: 2/3;
+}
+
+.cta h2 {
+    grid-column: 2/5;
+    grid-row: 1/2;
+    text-align: center;
+    
+}
+
+.cta .cta-button {
+    grid-column: 3/4;
+    grid-row: 2/4;
+    background-color: #ff7f00; /* Orange button color */
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    text-size-adjust: 1.7em;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.cta .cta-button:hover {
+    background-color: #ff6347; /* Coral hover color */
+}
+
+.cards {
+    grid-column: 1/6;
+    grid-row: 3/5;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+
+}
+
+.card img {
+    width: 500px;
+    height: auto;
+    margin: 50px 200px 20px;
+}
+
+.card-content {
+    padding: 20px;
+}
+
+.card-content h3 {
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    color: #333;
+    text-align: center;
+}
+
+.card-content p {
+    color: #666;
+    text-align: left;
+    margin: 0 200px 20px;
+}
+
