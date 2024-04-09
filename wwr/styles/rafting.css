@@ -675,7 +675,7 @@ main .main-grid{
     padding: 10px 20px;
     border-radius: 5px;
     text-decoration: none;
-    text-size-adjust: 1.7em;
+    text-size-adjust: auto;
     margin-top: 10px;
     text-align: center;
 }
