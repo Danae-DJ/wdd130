@@ -681,7 +681,7 @@ main .main-grid{
 }
 
 .cta .cta-button:hover {
-    background-color:var(--fourhty-color);/* #ff6347;  Coral hover color */
+    background-color:var(--nav-hover-link-color);/* #ff6347;  Coral hover color */
 }
 
 .cards {
