@@ -670,7 +670,7 @@ main .main-grid{
 .cta .cta-button {
     grid-column: 3/4;
     grid-row: 2/4;
-    background-color: #ff7f00; /* Orange button color */
+    background-color:var(--accent-color);/* #ff7f00;  Orange button color */
     color: white;
     padding: 10px 20px;
     border-radius: 5px;
@@ -681,7 +681,7 @@ main .main-grid{
 }
 
 .cta .cta-button:hover {
-    background-color: var(--accent-color);
+    background-color:var(--fourhty-color);/* #ff6347;  Coral hover color */
 }
 
 .cards {
